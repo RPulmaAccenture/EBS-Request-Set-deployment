@@ -1,0 +1,32 @@
+Please execute the steps below to upload the FND Files. 
+
+
+NOTE: PLEASE USE THE CORRECT USER NAME and PASSWORD of the server. 
+
+
+1. Select all FND FILES, Drag and drop into destination below. 						
+
+NOTE: Please make sure you that you have correct server instance. 						
+						
+Destination: /tnbtyi/applmgr/1200/xxnbty/12.0.0/admin/import		
+
+
+2. Execute the UPLOAD COMMAND FND FILE to upload the LDT's for menu. 
+
+
+
+---UPLOAD COMMAND FND FILE
+
+
+FNDLOAD USERNAME/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_EBS_INT_LOAD_RS.ldt CUSTOM_MODE=FORCE
+
+FNDLOAD USERNAME/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_EBS_INT_LOAD_RL.ldt CUSTOM_MODE=FORCE
+
+FNDLOAD USERNAME/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_EBS_INT_LOAD_RG_a.ldt CUSTOM_MODE=FORCE
+
+FNDLOAD USERNAME/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_EBS_INT_LOAD_RG_b.ldt CUSTOM_MODE=FORCE
+
+FNDLOAD USERNAME/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_EBS_INT_LOAD_RG_c.ldt CUSTOM_MODE=FORCE
+
+FNDLOAD USERNAME/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_EBS_INT_LOAD_RG_d.ldt CUSTOM_MODE=FORCE
+
